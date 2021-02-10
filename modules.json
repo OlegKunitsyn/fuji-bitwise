@@ -1,0 +1,20 @@
+{
+    "name": "fuji-bitwise",
+    "description": "NetCOBOL library with bitwise functions",
+    "modules": [
+        "src/bitwise.cbl"
+    ],
+    "dialect": "netcobol",
+    "authors": [
+        "Olegs Kunicins"
+    ],
+    "licenses": [
+        "LGPL-2.1"
+    ],
+    "dependencies": {},
+    "dependencies-debug": {},
+    "scripts": {
+        "doc": "coboldoc generate src/* -o coboldoc",
+        "build": "cobolget update && cobolget install"
+      }
+}
